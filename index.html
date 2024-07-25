@@ -8,7 +8,6 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="port.css" />
-
     <title>Portfolio</title>
   </head>
   <body>
@@ -16,16 +15,17 @@
     <header class="header">
       <a href="#" class="logo"><span>S</span>R</a>
       <nav class="navbar">
-        <a href="#" class="active">Home</a>
-        <a href="#">About</a>
-        <a href="#">Projects</a>
-        <a href="skill">Skill</a>
+        <a href="#home" class="active">Home</a>
+        
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
       </nav>
-      <a href="#" class="contact">Contact me</a>
+      <a href="#" class="contact">Download CV</a>
     </header>
 
     <!--Hero section-->
-    <section class="home">
+    <section class="home" id="home">
       <div class="home-content">
         <h3>Hello, I'm Sriram</h3>
         <h1>Web Developer</h1>
@@ -45,31 +45,88 @@
     </section>
 
     <!-- Skills section -->
-    <section class="skills">
+    <section class="skills" id="skills">
       <div class="skill-content">
         <h1>SKI<span>LLS</span></h1>
         <div class="cards">
           <div class="card">
             <h2>HTML</h2>
             <p>Experienced in creating structured web pages using HTML5.</p>
+            <img src="html.jpeg" alt="HTML">
           </div>
           <div class="card">
             <h2>CSS</h2>
             <p>Proficient in styling web pages with modern CSS techniques.</p>
-          </div>
-          <div class="card">
-            <h2>JavaScript</h2>
-            <p>Skilled in adding interactivity to web pages with JavaScript.</p>
+            <img src="css.jpeg" alt="CSS">
           </div>
           <div class="card">
             <h2>React</h2>
             <p>Experienced in building dynamic web applications using React.</p>
+            <img src="react.jpeg" alt="React">
+          </div>
+          <div class="card">
+            <h2>C++</h2>
+            <p>Skilled in problem-solving and algorithm development with C++.</p>
+            <img src="c++.jpeg" alt="C++">
+          </div>
+          <div class="card">
+            <h2>Java</h2>
+            <p>Proficient in object-oriented programming (OOP) and coding with Java.</p>
+            <img src="java.jpeg" alt="Java">
+          </div>
+          <div class="card">
+            <h2>MySQL</h2>
+            <p>Experienced in managing and querying databases with MySQL.</p>
+            <img src="mysql.jpeg" alt="MySQL">
           </div>
         </div>
       </div>
     </section>
+    
+    <!--Project section-->
+    <section class="project" id="projects">
+      <div class="project-content">
+        <h1><span>PRO</span>JECTS</h1>
+        <div class="projects-list">
+          <div class="project-item">
+            <h2>Project 1</h2>
+            <p>The "Bikes for Sale" project is a simple yet effective web application designed to showcase a collection of bicycles available for purchase. Utilizing HTML and CSS, this project aims to provide a clean and user-friendly interface for potential buyers to explore various bike options.</p>
+            <img src="pro1.png" alt="Project 1">
+          </div>
+          <div class="project-item">
+            <h2>Project 2</h2>
+            <p>"Debate Island" is a dynamic online platform built with React, designed to host and facilitate structured debates on a variety of topics. This project provides users with an interactive and engaging environment where they can participate in and follow debates, all while leveraging the powerful features of React to deliver a smooth and responsive experience.</p>
+            <img src="pro2.png" alt="Project 2">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
 
-    <!--contact section-->
-    <section id="contact"></section>
+    <!-- Contact section -->
+    <section class="contacts" id="contact">
+      <div class="contact-content">
+        <h1>Contact Me</h1>
+        <p class="email">SR@gmail.com</p>
+        <p>Feel free to contact me with any inquiries or questions!</p>
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Submit</button>
+        </form>
+        
+      </div>
+    </section>
   </body>
 </html>
