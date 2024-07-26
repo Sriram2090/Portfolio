@@ -231,7 +231,7 @@ span {
 
 .projects-list {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 20px;
     margin-top: 30px;
 }
@@ -244,6 +244,7 @@ span {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     max-width: 600px; /* Set a max-width to control card size */
     margin: 0 auto; /* Center the card horizontally */
+    
 }
 
 .project-item img {
