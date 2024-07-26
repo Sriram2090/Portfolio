@@ -7,6 +7,8 @@
     list-style: none;
 }
 
+/*header section*/
+
 .header {
     position: fixed;
     top: 0;
@@ -70,6 +72,7 @@ span {
     box-shadow: 0 0 25px orangered;
     color: white;
 }
+/*hero sction*/
 
 .home {
     width: 100%;
@@ -156,6 +159,7 @@ span {
     color: orangered;
     text-decoration: none;
 }
+/*skills section*/
 
 .skill-content {
     text-align: center;
@@ -213,7 +217,7 @@ span {
 }
 
 
-/* General styles for the project section */
+/* project section */
 .project {
     padding: 20px;
     background-color: #f9f9f9;
@@ -240,34 +244,34 @@ span {
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
-    padding: 15px; /* Reduced padding for a smaller card */
+    padding: 15px; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    max-width: 600px; /* Set a max-width to control card size */
-    margin: 0 auto; /* Center the card horizontally */
+    max-width: 600px; 
+    margin: 0 auto; 
     
 }
 
 .project-item img {
-    max-width: 80%; /* Reduce the image size */
+    max-width: 80%; 
     height: auto;
     border-radius: 4px;
-    margin-bottom: 10px; /* Add some space between the image and text */
+    margin-bottom: 10px; 
 }
 
 .project-item h2 {
     margin-top: 0;
-    font-size: 1.25em; /* Reduced font size */
+    font-size: 1.25em; 
     color: #333;
 }
 
 .project-item p {
-    font-size: 0.9em; /* Reduced font size */
+    font-size: 0.9em; 
     color: #666;
     margin: 10px 0;
 }
 
   
-
+/*contact section*/
 
 .contact-content {
     text-align: center;
@@ -367,9 +371,10 @@ span {
     }
 
     .home {
+        
         flex-direction: column;
-        padding: 20px 5%;
-        gap: 2em;
+        padding: 200px 5%;
+        
     }
 
     .home-content h1 {
